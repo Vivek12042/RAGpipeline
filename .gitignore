@@ -1,0 +1,35 @@
+# Secrets & Environment Configurations
+.env
+.env.*
+!.env.example
+
+# Virtual Environments & Dependencies
+.venv/
+venv/
+ENV/
+env/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Python Cache & Temporary Files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Database & Data Persistence
+chroma_db/
+parent_store.json
+pageindex.json
+
+# Draft/Scratch Notebooks (keep local, do not push)
+rag.ipynb
+ragvectorless.ipynb
+
+# Operating System Files
+.DS_Store
+Thumbs.db
