@@ -30,6 +30,10 @@ pageindex.json
 rag.ipynb
 ragvectorless.ipynb
 
+# Interview Preparation Material (keep local, do not push)
+interview_prep_guide.md
+interview_prep_guide.pdf
+
 # Operating System Files
 .DS_Store
 Thumbs.db
